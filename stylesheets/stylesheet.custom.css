@@ -1,0 +1,31 @@
+pre{
+    box-shadow: rgba(0, 0, 0, 0.0784314) 0px 0px 0px 3px;
+    font-family: "Source Code Pro", Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    white-space: nowrap;
+    word-wrap: break-word;
+    margin: 20px 0px 20px 3px;
+    overflow: auto;
+    padding: 10px;
+}
+
+.script, .tag {
+    color: #586e75;
+}
+
+.specials {
+    color: #268bd5;
+}
+.attribute {
+    color: #708284;
+}
+.value {
+    color: #269186;
+}
+
+.hljs{
+    background: transparent !important;
+}
+code{
+    margin: 0;
+}
